@@ -1,0 +1,24 @@
+.jumbotron {
+  background-image: url("../assets/images/jumbo.png");
+  height: 245px;
+  padding-top: 73px;
+  padding-left: 65px;
+  color: #fff;
+  border-radius: 0;
+  margin-bottom: 0;
+  margin-top: 57.38px;
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    @media (max-width: 768px) {
+      font-size: 44px;
+    }
+  }
+  p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+main {
+  margin: 70px 0;
+}

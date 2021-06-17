@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #fff !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 1.87rem !important;
+  img {
+    width: 75px;
+    height: 28px;
+  }
+  .nav-link {
+    color: #000 !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+  }
+  .login_btn {
+    background-image: linear-gradient(62deg, #fbab7e, #f7ce68);
+    font-size: 13px !important;
+    border-radius: 100px;
+    padding: 10px 30px;
+    color: #fff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 90px;
+  }
+}

@@ -1,0 +1,39 @@
+footer {
+  background: #1c0d04;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  .titles {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .links {
+    color: #eee;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 200%;
+    font-weight: 600;
+    margin: 0;
+    cursor: pointer;
+    &:hover {
+      color: #ff783c;
+    }
+    svg {
+      width: 18px;
+      height: 18px;
+      margin-right: 17px;
+    }
+  }
+  .social-links {
+    display: flex;
+    svg {
+      width: 42px;
+      height: 42px;
+      margin-right: 6px;
+      fill: #eee;
+    }
+  }
+}
